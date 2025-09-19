@@ -210,3 +210,25 @@ body{
     padding: 24px;
     background-color: #f7ebcf;
 }
+
+.qoute-part{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 48px;
+    background-size: auto;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-color: #fff;
+     
+}
+
+.heading-qoute{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
