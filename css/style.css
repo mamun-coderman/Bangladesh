@@ -35,6 +35,10 @@ body{
     margin-top: 12px;
 }
 
+.space_bottom{
+    margin-bottom: 40px;
+}
+
 /* common css ends and header parts starts here */
 
 .header_part{
@@ -140,4 +144,69 @@ body{
     border-radius: 16px;
     padding: 24px;
     background-color: #fff;
+    flex: 1;
+}
+
+/* pillars part ends and vision part starts */
+
+.vision-section{
+    margin-bottom: 80px;
+
+}
+
+.vision-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
+
+.vision-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.digital-btn{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #5490f5;
+}
+
+.green-nergy-btn{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color:  #09a15c;
+}
+
+.modern-btn{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #ffc239;
+}
+
+.digital-transformation{
+    border: 0px solid #5490f5;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green-nergy{
+    border: 0px solid #09a15c;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #c6e4d6;
+}
+
+.modern-infrastructure{
+    border: 0px solid #ffc239;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #f7ebcf;
 }
