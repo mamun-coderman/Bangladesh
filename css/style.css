@@ -232,3 +232,55 @@ body{
     margin-top: 12px;
     margin-bottom: 4px;
 }
+
+/* vision part ends and opinion part starts */
+
+.opinion-section{
+    margin-bottom: 80px;
+}
+
+.opinion-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color:  #0e0e0e;
+}
+
+.questions-container{
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr auto;
+    
+    
+}
+
+.header-qsn{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    background-color: #c6e4d6;
+}
+
+#right-border{
+    border-right: 0;
+
+}
+
+#left-border{
+    border-left: 0;
+}
+
+.question, .answer{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    background-color:  rgba(255, 255, 255, 0.1);
+}
+
+.answer > select{
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+    padding: 10px 10px;
+    background-color: #c6e4d6;
+}
+
