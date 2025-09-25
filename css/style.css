@@ -310,3 +310,75 @@ body{
     width: 100%;
     height: auto;
 }
+
+/* satellite ends and donation part starts */
+
+.donation-part{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.donation-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color:  #0e0e0e;
+}
+
+.donation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.donation-option{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.donation-option label{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.donation-option input{
+    display: none;
+}
+
+.donation-option span{
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    color:  rgba(14, 14, 14, 0.8);
+}
+
+.donation-option input:checked + span {
+    font-size: 40px;
+    font-weight: 700;
+    background-color:  #c6e4d6;
+}
+
+#other-amount{
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.submit-btn{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: #fff;
+    background-color: #006a50;
+    align-self: center;
+}
