@@ -425,3 +425,28 @@ body{
     font-size: 18px;
     font-weight: 600;
 }
+
+/* newsletter section ends and footer section starts */
+
+.footer-section{
+    padding: 50px 160px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-divider{
+    border:  1px solid rgba(14, 14, 14, 0.1);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+.social-link img:hover{
+    transform: scale(1.3);
+}
