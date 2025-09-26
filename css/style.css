@@ -382,3 +382,46 @@ body{
     background-color: #006a50;
     align-self: center;
 }
+
+/* donation part ends and newsletter part starts */
+
+.newsletter-section{
+    border-radius: 24px;
+    padding: 80px 100px;
+    background-color: #c6e4d6;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.newsletter-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+}
+
+.newsletter-form{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding: 18px 40px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.subscribe-btn{
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 17px 34px;
+    background-color: #006a50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
