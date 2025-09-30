@@ -418,6 +418,7 @@ body{
     border-radius: 8px;
     padding: 17px 34px;
     color: #fff;
+    font-size: 18px;
     background-color: #006a50;
     align-self: center;
     transition: transform 0.2s ease;
@@ -694,6 +695,71 @@ body{
     /* satellite part ends and donation part starts */
 
     
+    .donation-part{
+        margin-bottom: 40px;
+    }
 
+    .donation-heading{
+        font-size: 28px;
+    }
     
+    .donation-form{
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+    .donation-option{
+        gap: 18px;
+    }
+
+    .donation-option span{
+        border-radius: 12px;
+        font-size: 28px;
+        padding: 28px;
+    }
+
+    #other-amount{
+        padding: 15px 30px;
+    }
+
+    .submit-btn{
+        border-radius: 6px;
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    /* donation part ends and newsletter part starts */
+
+    .newsletter-section{
+        border-radius: 18px;
+        padding: 20px 40px;
+        margin-bottom: 40px;
+    }
+    
+    .newsletter-heading{
+        font-size: 28px;
+    }
+
+    .newsletter-form{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    #email{
+        border-radius: 8px;
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+
+    .subscribe-btn{
+        display: inline-block;
+        border-radius: 6px;
+        padding: 12px 24px;
+        font-size: 16px;
+        align-self: center;
+    }
+
 }
